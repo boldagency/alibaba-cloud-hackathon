@@ -9,6 +9,7 @@ import { useRef, useState } from "react";
 import ContactInfo from "./steps/ContactInfo";
 import CompanyInfo from "./steps/CompanyInfo";
 import ReviewInfo from "./steps/ReviewInfo";
+import { Widget } from "@typeform/embed-react";
 
 const HackathonRegisterForm = ({ }) => {
 
@@ -29,6 +30,8 @@ const HackathonRegisterForm = ({ }) => {
                 className={cx(styles.HackathonRegisterForm, '', {
                 })}
             >
+
+            <Widget id="Nq5YyccJ" style={{ width: '100%', height: '100vh' }} className={styles.registerForm} />
             </div>
         </div>
     );

@@ -4,6 +4,11 @@
     --container-padding: 30px;
 }
 
+.registerForm {
+    width:100%;height:100%;
+    iframe{border-radius:0 !important;}
+}
+
 
 .sectionHeading {
     width: 100%;
@@ -25,9 +30,10 @@
 .HackathonRegisterForm {
     display: flex;
     width: 100%;
+    min-height: 90vh;
     padding-block-start: calc(var(--container-padding));
     @media screen and (min-width: #{$screen-medium}) {
-        width: 70%;
+        // width: 70%;
       }
 }
 
