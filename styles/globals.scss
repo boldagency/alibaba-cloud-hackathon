@@ -1,0 +1,115 @@
+@import './fonts.scss';
+@import './abstracts';
+
+
+:root {
+  --header-height: 8vw;
+  --menu-width: 40vw;
+
+  --logo-width: 135px;
+  --black: #000000;
+  --orange: #FF6A00;
+  --light-grey: #F5F5F5;
+
+  --page-space-x: 8vw;
+  --title-margin: 1.5rem;
+  --page-space: 3vw;
+  --section-space: 5vw;
+  --section-space-extra: 8vw;
+
+  @media all and (max-width:1100px) {
+  }
+
+  @media all and (max-width:900px) {
+    --header-height: 10vw;
+    --page-space-x: 5vw;
+
+
+  }
+
+  @media all and (max-width:800px) {
+    --header-height: 12vw;
+
+    --text-base-m: 2vw;
+    --page-space-x: 5vw;
+  }
+
+  @media all and (max-width:600px) {
+    --header-height: 20vw;
+    --heading-line-height: 3vw;
+    --section-space: 15vw;
+  }
+
+  @media all and (max-width:500px) {
+  }
+
+
+  @media all and (max-width:450px) {
+    --header-height: 20vw;
+    --heading-line-height: 1.5vw;
+
+
+
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+   
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Alibaba Sans';
+  background-color: var(--light-grey);
+}
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.section-title {
+  font-size: 15px;
+  margin: 22px 0 9px 0px;
+  display: flex;
+  align-items: center;
+  line-height: 18px;
+  &::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: var(--orange);
+    border-radius: 50%;
+    margin-right: 29px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    // color-scheme: dark;
+  }
+}

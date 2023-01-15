@@ -1,0 +1,45 @@
+@import "../../styles/abstracts";
+
+.Footer {
+    //  z-index: 50;
+    color: grey;
+    background-color: var(--light-grey);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-block-start: 1px solid rgb(170, 170, 170);
+
+  
+    @media screen and (min-width: #{$screen-large}) {
+        
+    }
+    span {
+        margin-right: 30px;
+
+    }
+
+    .logo {
+        height: 4vw;
+        margin-right: 30px;
+        @media screen and (min-width: #{$screen-medium}) {
+            height: 1vw;
+
+          }
+    }
+
+    .footerText {
+        display: flex;
+        align-items: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+

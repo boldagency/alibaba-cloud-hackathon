@@ -1,0 +1,94 @@
+@import "../../styles/abstracts";
+
+.HackathonAboutContainer {
+    --container-padding: 30px;
+    padding-block-start: 0;
+}
+
+.sectionHeading {
+    width: 100%;
+    margin-top: 70px;
+    .heading {
+        font-size: 70px;
+        line-height: 78px;
+        &.headingSecondary {
+            color: var(--orange);
+        }
+    }
+
+}
+
+
+
+.HackathonAbout {
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #808080;
+
+   
+    @media screen and (min-width: #{$screen-large}) {
+        
+    }
+
+    p{
+        margin-bottom: 70px;
+    }
+}
+
+
+.HackathonTimeline {
+    margin-top: 70px;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: var(--container-padding);
+    display: flex;
+    flex-direction: column;
+
+    .timeline {
+        margin-block-start: var(--container-padding);
+        margin-block-end: var(--container-padding);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .time {
+            flex-basis: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 20px;
+            padding-block-end: var(--container-padding);
+            @media screen and (min-width: #{$screen-medium}) {
+                flex-basis: 46%;  
+                flex-direction: row; 
+                font-size: 25px;
+                .date {
+                    padding-inline-start: 12px;
+
+                }
+              }
+            .label {
+                flex-basis: 60%;
+                color: #808080;
+            }
+            .date {
+                flex-basis: 40%;
+                color: var(--orange);
+                font-weight: 500;
+            }
+        }
+
+    }
+}
+.HackathonTimelineDes {
+    font-size: 20px;
+    line-height: 19px;
+}
+
+
+
+
+
+
+
