@@ -12,35 +12,35 @@ const HackathonThemes = ({ }) => {
 
     const benefits = [
         {
-            logo: '/assets/images/themes/icon1.png',
+            logo: './assets/images/themes/icon1.png',
             title: 'Education',
         },
         {
-            logo: '/assets/images/themes/icon2.png',
+            logo: './assets/images/themes/icon2.png',
             title: 'Health',
         },
         {
-            logo: '/assets/images/themes/icon3.png',
+            logo: './assets/images/themes/icon3.png',
             title: `Logistics
             (Last-mile delivery)`,
         },
         {
-            logo: '/assets/images/themes/icon4.png',
+            logo: './assets/images/themes/icon4.png',
             title: 'E-commerce',
         },
         {
-            logo: '/assets/images/themes/icon5.png',
+            logo: './assets/images/themes/icon5.png',
             title: 'FinTech',
         },
         {
-            logo: '/assets/images/themes/icon6.png',
+            logo: './assets/images/themes/icon6.png',
             title: `Human-Computer Interaction
             (AI Powered chatbots)`,
         }
     ]
 
     return (
-        <div className={styles.HackathonThemesContainer + ' container-space section-space-extra'}>
+        <div className={styles.HackathonThemesContainer + ' container-space section-space'}>
             <div className="section-title">Hackathon themes</div>
             <div className={styles.sectionHeading}>
                 {/* <div className={styles.heading}>Alibaba Cloud</div>
@@ -55,6 +55,7 @@ const HackathonThemes = ({ }) => {
                     slidesPerView={4.5}
                     loop={false}
                     speed={500}
+                    autoplay={true}
                     initialSlide={0}
                     breakpoints={{
 

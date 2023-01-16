@@ -18,7 +18,7 @@ const Footer = ({
             >
                 <div className="footer-left">
                         <div className={styles.logo}>
-                            <Link href="/">
+                            <Link href="https://alibabacloud.sa/">
                                 <img src="assets/images/logo-black.svg" alt="logo" height="100%" />
                             </Link>
                         </div>

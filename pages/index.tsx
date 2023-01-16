@@ -42,7 +42,7 @@ export default function Home() {
           We encourage our participants to build and utilize Alibaba Cloud’s methodologies and tools to come up with brilliant solutions and implementation to their ideas. We will provide you with educational resources, sessions and workshops to help you kick-start your solutions.`}
           cta={{
             label: "Register Now",
-            link: "./#Register"
+            link: "#Register"
           }}
           />
           <HackathonThemes/>

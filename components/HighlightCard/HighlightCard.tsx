@@ -39,7 +39,9 @@ const HighlightCard = ({
                     { title && <h1 className={styles.title}>{title}</h1>}
                     <div className={styles.descriptionContainer}>
                     { description && <div className={styles.description}>{description}</div>}
-                    { cta && <Link href={cta.link} className={styles.cta+' cta-secondary'}>
+                    { cta && <Link href={cta.link} className={styles.cta+' cta-secondary'}
+                    onClick={()=> {return false}}
+                    >
                         <div className="arrow"></div>{cta.label}</Link>}
                     </div>
                     

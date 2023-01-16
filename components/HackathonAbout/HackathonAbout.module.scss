@@ -87,6 +87,33 @@
 }
 
 
+.HackathonPrize {
+    padding-block-start: 0;
+    --container-padding: 30px;
+
+    .sectionHeading {
+        width: 100%;
+        margin-top: 70px;
+    
+        .heading {
+            font-size: 60px;
+            line-height: 70px;
+            span {
+                color: var(--orange);
+            }
+        }
+    
+        .headingSecondary {
+            padding-block-start: calc(var(--container-padding));
+            font-size: 20px;
+            line-height: 31px;
+            color: #808080;
+        }
+    }
+}
+
+
+
 
 
 

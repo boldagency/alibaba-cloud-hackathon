@@ -18,15 +18,15 @@ const Header = ({
             >
                 <div className="top-header-left">
                         <div className={styles.logo}>
-                            <Link href="/">
+                            <Link href="https://alibabacloud.sa/">
                                 <img src="assets/images/logo-white.svg" alt="logo" height="100%" />
                             </Link>
                         </div>
                         
                     </div>
-                    <div>
+                    {/* <div>
                         <button type="button" className="cta-primary"><span>Login / Register</span></button>
-                        </div>
+                        </div> */}
 
             </header>
         </>
