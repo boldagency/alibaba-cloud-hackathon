@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Head>
         <title>Alibaba Cloud Saudi - Hackathon</title>
-        <meta name="description" content="Alibaba Cloud Saudi" />
+        <meta name="description" content="Alibaba Cloud Saudi Hackathon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
         <link rel="icon" href="./favicon.ico" />
@@ -24,17 +24,17 @@ export default function Home() {
       <main className={styles.main}>
         <Header/>
         <PageIntro 
-          label="Alibaba Cloud  / Hackathon"
-          title={`Alibaba Cloud
-          Hackathon`}
+          label="Alibaba Cloud Saudi / Hackathon"
+          title={`Alibaba Cloud 
+          Saudi Hackathon`}
           cover="assets/images/bg.jpg"
           />
           <HighlightCard
           label="Overview"
           title={`About 
           Alibaba Cloud
-          Hackathon`}
-          description={`Alibaba Cloud Hackathon aims to bring together students, enthusiasts, professionals and even beginners from the Kingdom and around the world to innovate and build projects in
+          Saudi Hackathon`}
+          description={`Alibaba Cloud Saudi Hackathon aims to bring together students, enthusiasts, professionals and even beginners from the Kingdom and around the world to innovate and build projects in
           the domain of cloud technologies by harnessing Alibaba Cloud’s capabilities and
           innovative vertical solutions that facilitate deployments, development, scalability
           and fast go-to market.

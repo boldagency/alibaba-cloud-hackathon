@@ -36,6 +36,10 @@ const HackathonThemes = ({ }) => {
             logo: './assets/images/themes/icon6.png',
             title: `Human-Computer Interaction
             (AI Powered chatbots)`,
+        },
+        {
+            logo: './assets/images/themes/icon7.png',
+            title: `Digital government`,
         }
     ]
 

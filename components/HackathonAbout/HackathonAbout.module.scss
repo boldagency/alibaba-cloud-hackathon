@@ -108,6 +108,9 @@
             font-size: 20px;
             line-height: 31px;
             color: #808080;
+            @media screen and (min-width: #{$screen-large}) {
+                width: 60%;
+            }
         }
     }
 }

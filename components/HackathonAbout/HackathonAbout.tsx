@@ -5,7 +5,7 @@ const HackathonAbout = ({ }) => {
     const timeline = [
         {
             label: "Hackathon Announcement",
-            date: "14 - 15 Jan"
+            date: "16 Jan"
         },
         {
             label: "Hackathon Registration Start",

@@ -25,6 +25,8 @@
         align-items: flex-start;
         justify-content: center;
         color: #fff;
+        background: rgba(0,0,0,40%);
+        backdrop-filter: blur(1px);
     }
 
     .label {

@@ -2,6 +2,7 @@
 import cx from "classnames";
 import styles from "./HackathonRegisterForm.module.scss";
 import { Widget } from "@typeform/embed-react";
+import Link from "next/link";
 
 const HackathonRegisterForm = ({ }) => {
 
@@ -11,7 +12,7 @@ const HackathonRegisterForm = ({ }) => {
             <div className={styles.sectionHeading}>
                 <div className={styles.heading}>Register Your Interest</div>
                 <div className={cx(styles.headingSecondary)}>Complete the form below and our hackathon program advisor will get back to you shortly.</div>
-
+                <div className={cx(styles.headingSecondary)}>If you have any queries, please contact us at <Link href="mailto:hackathon@alibabacloud.sa">hackathon@alibabacloud.sa</Link></div>
             </div>
             <div
                 className={cx(styles.HackathonRegisterForm, '', {
