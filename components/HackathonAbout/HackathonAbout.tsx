@@ -5,11 +5,11 @@ const HackathonAbout = ({ }) => {
     const timeline = [
         {
             label: "Hackathon Announcement",
-            date: "16 Jan"
+            date: "17 Jan"
         },
         {
             label: "Hackathon Registration Start",
-            date: "14 - 16 Jan"
+            date: "17 Jan"
         },
         {
             label: "Hackathon Registration End",
@@ -63,7 +63,7 @@ const HackathonAbout = ({ }) => {
                 <div className="section-title">Prizes</div>
 
                 <div className={styles.sectionHeading}>
-                <div className={styles.heading}>Total prizes are <span>1,000,000 SAR</span></div>
+                <div className={styles.heading}>Total prizes are <span>2,000,000 SAR</span></div>
                 <div className={styles.headingSecondary}>Many sponsor prizes will include just one unit in such case, the team must let the organizers know who should receive the prize by deciding amongst themselves.</div>
                 
             </div>
