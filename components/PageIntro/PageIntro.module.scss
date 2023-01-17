@@ -1,16 +1,18 @@
 @import "../../styles/abstracts";
 
 .PageIntro {
-    min-height: calc(100vh - 80px);
+    --coverh: calc(80vh - 80px);
+    min-height: var(--coverh);
     position: relative;
   
     @media screen and (min-width: #{$screen-large}) {
         position: relative;
+        --coverh: calc(100vh - 80px);
         z-index: 1;
     }
 
     .cover {
-        height: calc(100vh - 80px);
+        height: var(--coverh);
         width: 100%;
         object-fit: cover;
         object-position: center;
@@ -19,14 +21,47 @@
         height: 100%;
         width: 100%;
         top: 0;
-        display: flex;
-        flex-direction: column;
         position: absolute;
-        align-items: flex-start;
-        justify-content: center;
         color: #fff;
         background: rgba(0,0,0,40%);
         backdrop-filter: blur(1px);
+        .coverWrapper {
+            display: flex;
+            flex-direction: column-reverse;
+            height: 100%;
+            justify-content: flex-end;
+            @media screen and (min-width: #{$screen-medium}) {
+                flex-basis: 60%;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+        .coverLogos {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            @media screen and (min-width: #{$screen-medium}) {
+                padding-top: 30px;
+                flex-direction: column;
+                align-items: end;
+                justify-content: flex-start;
+            }
+            .partner {
+                max-height: 7vh;
+                padding: 15px;
+                @media screen and (min-width: #{$screen-medium}) {
+                    max-height: 10vh;
+                    padding: 15px;
+                }
+            }
+        }
+
+        .coverMain {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
     }
 
     .label {
@@ -37,11 +72,12 @@
     .title {
         margin-bottom: 30px;
         font-size: 15vw;
-        line-height: 100px;
+        line-height: 65px;
         width: 100%;
         @media screen and (min-width: #{$screen-medium}) {
-            width: 50%;
+            // width: 60%;
             font-size: 6vw;
+            line-height: 100px;
 
           }
 
@@ -53,6 +89,16 @@
         @media screen and (min-width: #{$screen-medium}) {
             width: 40%;
           }
+    }
+
+    .cta {
+        height: 45px;
+        font-size: 15px;
+       
+        @media screen and (min-width: #{$screen-medium}) {
+            height: 60px;
+            font-size: 18px;
+        }
     }
 
 

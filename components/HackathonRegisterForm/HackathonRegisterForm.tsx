@@ -20,9 +20,9 @@ const HackathonRegisterForm = ({ }) => {
             >
                 <Widget id="Nq5YyccJ" style={{ width: '100%', height: '100vh' }} className={styles.registerForm} />
                 <div className={styles.partners}>
+                    {/* <img className={styles.partner} src="./assets/images/sponsors/MCIT-logo.png"/> */}
                     <img className={styles.partner} src="./assets/images/sponsors/SFCSP-logo.png"/>
                     <img className={styles.partner} src="./assets/images/sponsors/STC-logo.png"/>
-                    <img className={styles.partner} src="./assets/images/sponsors/DGA-logo.png"/>
                 </div>
             </div>
         </div>

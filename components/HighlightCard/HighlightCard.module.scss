@@ -3,7 +3,11 @@
 .HighlightCardContainer {
     // padding-inline-start: calc(var(--page-space-x)/4);
     // padding-inline-end: calc(var(--page-space-x)/4);
-    margin-top: -20vh;
+    margin-top: -10vh;
+    @media screen and (min-width: #{$screen-large}) {
+        margin-top: -20vh;
+
+    }
 }
 
 

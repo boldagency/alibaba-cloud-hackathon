@@ -28,6 +28,10 @@ export default function Home() {
           title={`Alibaba Cloud 
           Saudi Hackathon`}
           cover="assets/images/bg.jpg"
+          cta={{
+            link: "#Register",
+            label:"Register Now"
+          }}  
           />
           <HighlightCard
           label="Overview"
